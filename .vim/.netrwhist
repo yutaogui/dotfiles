@@ -1,0 +1,11 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhistcnt =9
+let g:netrw_dirhist_9='/home/yutaog/.vim'
+let g:netrw_dirhist_8='/home/yutaog/.nv'
+let g:netrw_dirhist_7='/home/yutaog/.config'
+let g:netrw_dirhist_6='/home/yutaog/Documents/personal/cv'
+let g:netrw_dirhist_5='/home/yutaog/repos/advent2020/day6'
+let g:netrw_dirhist_4='/home/yutaog/repos/learn-python/learning-python/heap/__tests__/unit/snapshots'
+let g:netrw_dirhist_3='/home/yutaog/repos/learn-python/learning-python/heap/__tests__/unit'
+let g:netrw_dirhist_2='/home/yutaog/repos/usaco/chapter2/concom'
+let g:netrw_dirhist_1='/home/yutaog/repos/usaco/chapter2/hamming'
