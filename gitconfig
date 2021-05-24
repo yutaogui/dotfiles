@@ -1,0 +1,8 @@
+[user]
+	email = yutaogui@gmail.com
+	name = Yutao Gui
+[core]
+	editor = vim
+	excludesFile = ~/.gitignore
+[credential]
+	helper = libsecret

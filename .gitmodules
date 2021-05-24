@@ -4,3 +4,7 @@
 [submodule "dotbot"]
 	path = dotbot
 	url = https://github.com/anishathalye/dotbot
+	ignore = dirty
+[submodule "vim/pack/vendor/start/ctrlp.vim"]
+	path = vim/pack/vendor/start/ctrlp.vim
+	url = https://github.com/genericusername321/ctrlp.vim/settings/access
