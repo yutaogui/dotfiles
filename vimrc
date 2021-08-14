@@ -40,3 +40,12 @@ set nofoldenable
 set foldlevel=2
 
 set undofile
+
+" vim-plug "
+call plug#begin('~/.vim/plugged')
+
+Plug 'https://github.com/genericusername321/ctrlp.vim'   
+Plug 'https://github.com/ycm-core/YouCompleteMe'
+Plug 'psf/black', { 'branch': 'stable' }
+
+call plug#end()
