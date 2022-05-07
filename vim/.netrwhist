@@ -1,5 +1,8 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhistcnt =1
+let g:netrw_dirhistcnt =4
+let g:netrw_dirhist_4='/Users/yutaogui/repos/advent-of-code/.git'
+let g:netrw_dirhist_3='/Users/yutaogui/TetraScience/repos/ssp/tecan-spark-raw-to-ids'
+let g:netrw_dirhist_2='/Users/yutaogui/TetraScience/repos/ts-lib-protocol-script/ids/common/plate-reader-tecan-spark/v1.0.0/example-files'
 let g:netrw_dirhist_1='/home/yutaog/.dotfiles/.git'
 let g:netrw_dirhist_0='/home/yutaog/.vim'
 let g:netrw_dirhist_9='/home/yutaog/.dotfiles'
@@ -7,6 +10,3 @@ let g:netrw_dirhist_8='/home/yutaog/repos/hanasim/hanasim'
 let g:netrw_dirhist_7='/home/yutaog/repos/learn_cpp/practice_cpp/src/ArrayDeque'
 let g:netrw_dirhist_6='/home/yutaog/repos/learn_cpp/practice_cpp/src/SingleLinkedList'
 let g:netrw_dirhist_5='/home/yutaog/repos/advent2020/day14'
-let g:netrw_dirhist_4='/home/yutaog/repos/advent2020/day2'
-let g:netrw_dirhist_3='/home/yutaog/repos/advent2020'
-let g:netrw_dirhist_2='/home/yutaog/repos/codeforces/1461'

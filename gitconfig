@@ -1,8 +1,5 @@
 [user]
-	email = yutaogui@gmail.com
+	email = ygui@tetrascience.com
 	name = Yutao Gui
 [core]
 	editor = vim
-	excludesFile = ~/.gitignore
-[credential]
-	helper = libsecret
