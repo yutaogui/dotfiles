@@ -4,15 +4,17 @@
 
 - clean: ['~']
 
+- create:
+    - ~/downloads
+    - ~/.vim/undo-history
+    - ~/.config/nvim
+
 - link:
     ~/.vim: vim
     ~/.vimrc: vimrc
     ~/.gitconfig: gitconfig
     ~/.zshrc: zshrc
-
-- create:
-    - ~/downloads
-    - ~/.vim/undo-history
+    ~/.config/nvim/init.vim: nvim/init.vim
 
 - shell:
     - [git submodule update --init --recursive, Installing submodules]
