@@ -39,6 +39,7 @@ set foldnestmax=10
 set nofoldenable
 set foldlevel=2
 
+set undodir=~/.undo_dir
 set undofile
 
 " vim-plug "
@@ -46,6 +47,7 @@ call plug#begin('~/.vim/plugged')
 
 Plug 'https://github.com/genericusername321/ctrlp.vim'   
 Plug 'https://github.com/ycm-core/YouCompleteMe'
+Plug 'https://github.com/preservim/nerdtree'
 Plug 'psf/black', { 'branch': 'stable' }
 
 call plug#end()
