@@ -5,10 +5,10 @@
 	name = Yutao Gui
 [core]
 	editor = vim
+[ini]
+	defaultBranch = main
 [filter "lfs"]
 	clean = git-lfs clean -- %f
 	smudge = git-lfs smudge -- %f
 	process = git-lfs filter-process
 	required = true
-[ini]
-	defaultBranch = main

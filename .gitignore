@@ -1,3 +1,4 @@
 vim/plugged/*
 vim/black
 *.un*
+.DS_Store
