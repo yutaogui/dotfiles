@@ -110,9 +110,6 @@ set -o vi
 
 export PIPENV_VENV_IN_PROJECT=1
 
-# Add poetry to path
-PATH="$PATH:/Users/yutaogui/.local/bin"
-
 # Pyenv 
 export PYENV_ROOT="$HOME/.pyenv"
 command -v pyenv >/dev/null || export PATH="$PYENV_ROOT/bin:$PATH"
@@ -120,4 +117,5 @@ eval "$(pyenv init -)"
 
 source ~/repos/git-subrepo/.rc
 
-[ -f "/Users/yutaogui/.ghcup/env" ] && source "/Users/yutaogui/.ghcup/env" # ghcup-env
+# Created by `pipx` on 2024-06-05 11:24:43
+export PATH="$PATH:/Users/yutaogui/.local/bin"
