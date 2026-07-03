@@ -71,8 +71,6 @@ ZSH_THEME="agnoster"
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(
-    git
-#    shrink-path
 )
 
 source $ZSH/oh-my-zsh.sh
@@ -103,8 +101,6 @@ fi
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
-eval $(thefuck --alias)
-
 test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
 set -o vi
 
@@ -119,3 +115,9 @@ source ~/repos/git-subrepo/.rc
 
 # Created by `pipx` on 2024-06-05 11:24:43
 export PATH="$PATH:/Users/yutaogui/.local/bin"
+
+# Add Docker Desktop for Mac (docker)
+export PATH="$PATH:/Applications/Docker.app/Contents/Resources/bin/"
+
+fpath+=~/.zfunc; autoload -Uz compinit; compinit
+export PATH="/opt/homebrew/opt/openjdk@17/bin:$PATH"
