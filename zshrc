@@ -102,14 +102,11 @@ fi
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
 test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
+
+# Use vim mode
 set -o vi
 
 export PIPENV_VENV_IN_PROJECT=1
-
-# Pyenv 
-export PYENV_ROOT="$HOME/.pyenv"
-command -v pyenv >/dev/null || export PATH="$PYENV_ROOT/bin:$PATH"
-eval "$(pyenv init -)"
 
 source ~/repos/git-subrepo/.rc
 
